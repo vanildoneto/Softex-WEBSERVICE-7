@@ -1,0 +1,17 @@
+Request
+
+https://fakerapi.it/api/v1/places?_quantity=1
+
+Response
+
+{
+	"status": "OK",
+	"code": 200,
+	"total": 1,
+	"data": [
+		{
+			"latitude": -35.552052,
+			"longitude": 115.415202
+		}
+	]
+}
