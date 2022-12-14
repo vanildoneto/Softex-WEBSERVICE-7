@@ -1,1 +1,25 @@
+REQUEST 
 
+https://fakerapi.it/api/v1/books?_quantity=1
+
+
+RESPONSE
+
+{
+	"status": "OK",
+	"code": 200,
+	"total": 1,
+	"data": [
+		{
+			"id": 1,
+			"title": "Alice waited.",
+			"author": "Talia Fritsch",
+			"genre": "Quis",
+			"description": "Queen was silent. The King laid his hand upon her knee, and looking at the stick, and made believe to worry it; then Alice, thinking it was growing, and very neatly and simply arranged; the only.",
+			"isbn": "9787485645421",
+			"image": "http:\/\/placeimg.com\/480\/640\/any",
+			"published": "2019-05-03",
+			"publisher": "Accusantium Quia"
+		}
+	]
+}
